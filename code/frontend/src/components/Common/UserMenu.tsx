@@ -3,11 +3,7 @@ import {
   IconButton,
   Menu,
   MenuButton,
-  MenuItem,
-  MenuList,
 } from "@chakra-ui/react"
-import { FaUserAstronaut } from "react-icons/fa"
-import { FiLogOut, FiUser } from "react-icons/fi"
 
 
 const UserMenu = () => {
@@ -24,8 +20,7 @@ const UserMenu = () => {
           <MenuButton
             as={IconButton}
             aria-label="Options"
-            icon={<FaUserAstronaut color="white" fontSize="18px" />}
-            bg="ui.main"
+            bg="#0606FC"
             isRound
             data-testid="user-menu"
           />
